@@ -1,0 +1,47 @@
+[
+  {
+    "$assetType": "Workstation",
+    "AssetTypeName": "Workstation",
+    "BorrowerId": "",
+    "IsCheckedOut": false,
+    "IpAddress": "192.168.1.100",
+    "MacAddress": "00:1B:44:11:3A:B7",
+    "AssetTag": "LAB1-PC01",
+    "Name": "HP OptiPlex 7090",
+    "PurchasePrice": 48500,
+    "Status": "Available",
+    "PurchaseDate": "2026-11-15T21:40:54.7480904-08:00"
+  },
+  {
+    "$assetType": "NetworkingHardware",
+    "AssetTypeName": "NetworkingHardware",
+    "IpAddress": "10.0.0.1",
+    "MacAddress": "AA:BB:CC:DD:EE:FF",
+    "AssetTag": "NET-SW01",
+    "Name": "Cisco Catalyst 2960",
+    "PurchasePrice": 32000,
+    "Status": "Available",
+    "PurchaseDate": "2026-11-15T21:40:54.7500438-08:00"
+  },
+  {
+    "$assetType": "Peripheral",
+    "AssetTypeName": "Peripheral",
+    "BorrowerId": "",
+    "IsCheckedOut": false,
+    "AssetTag": "PER-PRJ02",
+    "Name": "Epson EB-X51 Projector",
+    "PurchasePrice": 24000,
+    "Status": "Available",
+    "PurchaseDate": "2026-11-15T21:40:54.7500866-08:00"
+  },
+  {
+    "$assetType": "SoftwareLicense",
+    "AssetTypeName": "SoftwareLicense",
+    "SubscriptionMonthsRemaining": 12,
+    "AssetTag": "LIC-VS26",
+    "Name": "Visual Studio Enterprise",
+    "PurchasePrice": 15000,
+    "Status": "Available",
+    "PurchaseDate": "2026-11-15T21:40:54.7501321-08:00"
+  }
+]
