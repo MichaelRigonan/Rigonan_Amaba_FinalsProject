@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ITAsset-LabTracker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f80270181b73c7817af3096afe595c4596f506d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc4edc468fe4a872544f20f8214f889cb14990fc")]
 [assembly: System.Reflection.AssemblyProductAttribute("ITAsset-LabTracker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ITAsset-LabTracker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -17,3 +17,4 @@ C:\Users\Michael\source\repos\ITAsset-LabTracker\ITAsset-LabTracker\obj\Debug\ne
 C:\Users\Michael\source\repos\ITAsset-LabTracker\ITAsset-LabTracker\obj\Debug\net8.0-windows\ref\ITAsset-LabTracker.dll
 C:\Users\Michael\source\repos\ITAsset-LabTracker\ITAsset-LabTracker\obj\Debug\net8.0-windows\ITAsset-.A5003C2D.Up2Date
 C:\Users\Michael\source\repos\ITAsset-LabTracker\ITAsset-LabTracker\obj\Debug\net8.0-windows\ITAsset_LabTracker.Properties.Resources.resources
+C:\Users\Michael\source\repos\ITAsset-LabTracker\ITAsset-LabTracker\obj\Debug\net8.0-windows\ITAsset-LabTracker.sourcelink.json

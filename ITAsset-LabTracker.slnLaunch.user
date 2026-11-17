@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "ITAsset-LabTracker\\ITAsset-LabTracker.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "CampusITAssetTracker\\CampusITAssetTracker.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

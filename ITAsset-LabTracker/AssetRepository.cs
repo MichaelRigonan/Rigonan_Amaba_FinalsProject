@@ -7,10 +7,12 @@ namespace ITAsset_LabTracker
 {
     public class AssetRepository
     {
+        // Shared path in your Documents folder so both WinForms and Swagger use the same file
+        private readonly string _jsonFilePath = Path.Combine(
+            Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),
+            "campus_assets.json"
+        );
 
-        private readonly string _jsonFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "campus_assets.json");
-
-        // Phase 4: JSON Serialization Persistence
         public void SaveToJson(List<CampusAsset> assets)
         {
             var options = new JsonSerializerOptions { WriteIndented = true };
@@ -21,7 +23,7 @@ namespace ITAsset_LabTracker
         public List<CampusAsset> LoadFromJson()
         {
             if (!File.Exists(_jsonFilePath))
-                throw new FileNotFoundException("No saved JSON file found yet. Save your assets first.");
+                return new List<CampusAsset>(); // Returns an empty list safely if file doesn't exist yet
 
             string jsonString = File.ReadAllText(_jsonFilePath);
             return JsonSerializer.Deserialize<List<CampusAsset>>(jsonString) ?? new List<CampusAsset>();
